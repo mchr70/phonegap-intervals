@@ -1,3 +1,18 @@
-.navbar {
-    background-color: red;
+:root {
+    --main-bg-color: #B6C9BB; 
 }
+
+.navbar {
+    background-color: var(--main-bg-color);
+}
+
+.card {
+    border: 2px solid gray;
+    border-radius: 0;
+}
+
+.card-header {
+    background-color: var(--main-bg-color);
+}
+
+ 

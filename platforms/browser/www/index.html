@@ -8,9 +8,45 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-light">
+        <nav class="navbar navbar-light shadow">
             <span class="navbar-brand mb-0 h1">Navbar</span>
         </nav>
+
+        <main class="container mt-3 mb-3">
+            <div class="accordion" id="accordionExample">
+                <section class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#training" aria-expanded="true" aria-controls="training">
+                            Collapsible Group Item #1
+                        </button>
+                        </h2>
+                    </div>
+                
+                    <div id="training" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                         
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#settings" aria-expanded="true" aria-controls="settings">
+                            Collapsible Group Item #1
+                        </button>
+                        </h2>
+                    </div>
+                
+                    <div id="settings" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                         
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
 
         <script type="text/javascript" src="cordova.js"></script>
 
